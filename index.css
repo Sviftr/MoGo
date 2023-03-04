@@ -233,7 +233,14 @@ body {
     position: relative;
 }
 
+.gradient-bloks {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
 .main__men-blok-gradient-box {
+    opacity: 0;
     width: 380px;
     height: 470px;
     position: absolute;
@@ -241,6 +248,45 @@ body {
     top: -10px;
     display: flex;
     background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    transition: 1.5s;
+}
+
+.main__men-blok-gradient-box:hover {
+    opacity: 1;
+}
+
+.main__gradient-box1 {
+    opacity: 0;
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    display: flex;
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    transition: 1.5s;
+    margin-left: 415px;
+}
+
+.main__gradient-box1:hover {
+    opacity: 1;
+}
+
+.main__gradient-box2 {
+    opacity: 0;
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    display: flex;
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    transition: 1.5s;
+    margin-left: 830px;
+}
+
+.main__gradient-box2:hover {
+    opacity: 1;
 }
 
 /* LOGOS ICONS TO MASENGERS */
@@ -256,9 +302,16 @@ body {
     background-color: #95E1D3;
 }
 
-.img-fasebook {
+.fa-facebook-f {
     margin: 16px auto;
-    margin-left: 16px;
+    margin-left: 20px;
+    color: #F38181;
+    font-size: 26px;
+    transition: 0.9s;
+}
+
+.fa-facebook-f:hover {
+    color: #FCE38A;
 }
 
 /* LOGO 2 TWITER */
@@ -269,9 +322,16 @@ body {
     background-color: #FCE38A;
 }
 
-.img-twiter {
+.fa-twitter {
     margin: 16px auto;
-    margin-left: 16px;
+    margin-left: 17px;
+    color: #F38181;
+    font-size: 26px;
+    transition: 0.9s;
+}
+
+.fa-twitter:hover {
+    color: #95E1D3;
 }
 
 /* LOGO 3 PINTEREST */
@@ -282,9 +342,16 @@ body {
     background-color: #FCE38A;
 }
 
-.img-pinterest {
+.fa-pinterest-p {
     margin: 16px auto;
-    margin-left: 16px;
+    margin-left: 20px;
+    color: #F38181;
+    font-size: 26px;
+    transition: 0.9s;
+}
+
+.fa-pinterest-p:hover {
+    color: #95E1D3;
 }
 
 /* LOGO 4 INSTAGRAM */
@@ -295,11 +362,17 @@ body {
     background-color: #FCE38A;
 }
 
-.img-instagram {
+.fa-instagram {
     margin: 16px auto;
-    margin-left: 16px;
+    margin-left: 17px;
+    color: #F38181;
+    font-size: 26px;
+    transition: 0.9s;
 }
 
+.fa-instagram:hover {
+    color: #95E1D3;
+}
 
 /* MENS IMG */
 .main__men-blok-img {
