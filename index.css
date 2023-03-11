@@ -13,7 +13,42 @@ a {
 }
 
 body {
+    width: 1500px;
     height: 1618px;
+    animation: body__background 15s linear infinite alternate;
+}
+
+@keyframes body__background{
+    0%{
+        background: url(./img/natur-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    25%{
+        background: url(./img/natur-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    50%{
+        background: url(./img/natur-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    75%{
+        background: url(./img/nature-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    100%{
+        background: url(./img/nature-5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
 }
 
 /* ----------------------------HEADER START-------------------------  */
@@ -81,9 +116,12 @@ body {
 
 .main__info-blok {
     width: 275px;
-    height: 136px;
+    height: 160px;
     margin: 68px auto;
     text-align: center;
+    background-color: #ffffff9e;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .info-blok__text1 {
@@ -91,7 +129,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    color: #333333;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -101,7 +139,7 @@ body {
     font-weight: 700;
     font-size: 30px;
     font-variant: all-small-caps;
-    color: #333333;
+    color: #000000;
     margin-bottom: 40px;
 }
 
@@ -142,8 +180,11 @@ body {
 /* BENEFIT-1 */
 .main__benefits-item {
     width: 327.78px;
-    height: 74px;
+    height: 90px;
     display: flex;
+    background-color: #313131bb;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .main__benefits-item-blok-logo-text {
@@ -162,7 +203,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     font-variant: small-caps;
-    color: #333333;
+    color: #000000;
     margin-left: 18.21px;
 }
 
@@ -179,10 +220,13 @@ body {
 
 .main__second-info-blok {
     width: 1104px;
-    height: 221px;
+    height: 231px;
     margin: 100px auto;
     margin-bottom: 17px;
     align-items: center;
+    background-color: #ffffff9e;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .second__info-blok__text1 {
@@ -190,7 +234,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    color: #333333;
+    color: #000000;
     width: 117px;
     margin: 0px auto;
 }
@@ -202,7 +246,7 @@ body {
     font-weight: 700;
     font-size: 30px;
     font-variant: all-small-caps;
-    color: #333333;
+    color: #000000;
     margin: 17px auto;
     margin-bottom: 36px;
 }
@@ -221,7 +265,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    color: #B6B6B6;
+    color: #000000;
 }
 
 /* MEN BLOK 3 IMG */
@@ -391,6 +435,9 @@ body {
     flex-direction: column;
     margin: 0px auto;
     padding-top: 18px;
+    background-color: #ffffff9e;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .men__blok-zagolowok {
@@ -400,7 +447,7 @@ body {
     font-size: 14px;
     text-align: center;
     font-variant: all-small-caps;
-    color: #333333;
+    color: #000000;
 }
 
 .men__blok-info-paragaf {
@@ -409,11 +456,11 @@ body {
     font-weight: 300;
     font-size: 15px;
     text-align: center;
-    color: #B6B6B6;
+    color: #3e3e3e;
     margin-top: 11px;
 }
 
-/* ----------------------------MENY END-------------------------  */
+/* ----------------------------MAIN END-------------------------  */
 
 
 
@@ -423,7 +470,7 @@ body {
 .footer {
     width: 1200px;
     height: 50px;
-    margin: 80px auto;
+    margin: 40px auto;
 }
 
 .footer__line {
@@ -461,7 +508,10 @@ body {
     font-weight: 400;
     font-size: 14px;
     margin-top: 19px;
-    color: #333333;
+    color: #000000;
+    background-color: #ffffff9e;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .footer__input {
