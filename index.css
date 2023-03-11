@@ -25,6 +25,12 @@ body {
         background-size: cover;
         background-position: 50%;
     }
+    12.5%{
+        background: url(./img/nature-6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
     25%{
         background: url(./img/natur-2.jpg);
         background-repeat: no-repeat;
@@ -39,6 +45,12 @@ body {
     }
     75%{
         background: url(./img/nature-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    90%{
+        background: url(./img/nature-7.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
