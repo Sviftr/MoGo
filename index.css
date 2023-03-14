@@ -15,7 +15,7 @@ a {
 body {
     width: 1500px;
     height: 1618px;
-    animation: body__background 15s linear infinite alternate;
+    animation: body__background 32s linear infinite alternate;
 }
 
 @keyframes body__background{
@@ -131,7 +131,7 @@ body {
     height: 160px;
     margin: 68px auto;
     text-align: center;
-    background-color: #ffffff9e;
+    background-color: #313131bb;
     border-radius: 10px;
     padding: 10px;
 }
@@ -236,7 +236,7 @@ body {
     margin: 100px auto;
     margin-bottom: 17px;
     align-items: center;
-    background-color: #ffffff9e;
+    background-color: #313131bb;
     border-radius: 10px;
     padding: 10px;
 }
@@ -277,7 +277,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    color: #000000;
+    color: #B6B6B6;
 }
 
 /* MEN BLOK 3 IMG */
@@ -447,7 +447,7 @@ body {
     flex-direction: column;
     margin: 0px auto;
     padding-top: 18px;
-    background-color: #ffffff9e;
+    background-color: #313131bb;
     border-radius: 10px;
     padding: 10px;
 }
@@ -460,6 +460,7 @@ body {
     text-align: center;
     font-variant: all-small-caps;
     color: #000000;
+    text-shadow: 0 0.3px 0.4px #ffffff1f;
 }
 
 .men__blok-info-paragaf {
@@ -468,7 +469,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     text-align: center;
-    color: #3e3e3e;
+    color: #B6B6B6;
     margin-top: 11px;
 }
 
@@ -520,8 +521,8 @@ body {
     font-weight: 400;
     font-size: 14px;
     margin-top: 19px;
-    color: #000000;
-    background-color: #ffffff9e;
+    color: #B6B6B6;
+    background-color: #313131bb;
     border-radius: 10px;
     padding: 10px;
 }
